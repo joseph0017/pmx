@@ -1,0 +1,21 @@
+.darkBackground {
+    background-color: rgba(0, 0, 0, 0.6); /* Change this to your preferred dark color */
+    transition: background-color 0.6s ease; /* Adjust time as needed */
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+.normalBackground {
+    right: 100%;
+    margin-right: 40px;
+    top: 80px;
+}
+
+.darkBackground, .normalBackground {
+    transition: all 0.5s ease;
+    width: 100%;
+}
