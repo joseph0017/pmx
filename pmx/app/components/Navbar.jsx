@@ -43,7 +43,7 @@ const Navbar = () => {
                         <Link href='/about'>About</Link>
                     </li>
                     <li className='nav-item mx-1.5 sm:mx-6'>
-                        <Link href='/'>Our Services</Link>
+                        <Link href='/services'>Our Services</Link>
 
                     </li>
                     <li className='nav-item mx-1.5 sm:mx-6'>
