@@ -23,7 +23,7 @@ const ContactPage = () => {
   return (
     <section className="pl-3 grid ">
         <div className='justify-self-center md:justify-self-start lg:ml-10'>
-            <h1 className="text-4xl sm:text-6xl pt-10">CONTACT US</h1>
+            <h1 className="text-4xl sm:text-6xl pt-10 text-yellow-400">CONTACT US</h1>
             <p className="text-sm sm:text-base pt-4">Have a question? We are here to listen to you.</p>
         </div>
         <div className='justify-self-center md:justify-self-end lg:mr-10'>
@@ -35,7 +35,7 @@ const ContactPage = () => {
     <form ref={form} onSubmit={sendEmail} 
     className="text-sm sm:text-base w-full max-w-sm pt-20 pb-20 justify-self-center md:justify-self-start lg:ml-10">
         <div className="pb-10">
-            <div className="flex items-center border-b border-teal-500 py-2">
+            <div className="flex items-center border-b border-stone-400 py-2">
                 <input className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
                  type="text" placeholder="Full Name" aria-label="Full name"
                  name='user_name'
@@ -44,7 +44,7 @@ const ContactPage = () => {
         </div>
 
         <div className="pb-10">
-            <div className="flex items-center border-b border-teal-500 py-2">
+            <div className="flex items-center border-b border-stone-400 py-2">
                 <input className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
                 type="number" placeholder="Phone Number" aria-label="Phone Number "
                 name='phone_number'
@@ -53,7 +53,7 @@ const ContactPage = () => {
         </div>
 
         <div className="pb-10">
-            <div className="flex items-center border-b border-teal-500 py-2">
+            <div className="flex items-center border-b border-stone-400 py-2">
                 <input className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
                  type="email" placeholder="Email" aria-label="Email"
                  name='user_email'
@@ -62,7 +62,7 @@ const ContactPage = () => {
         </div>
 
         <div className="pb-10">
-            <div className="flex items-center border-b border-teal-500 py-2">
+            <div className="flex items-center border-b border-stone-400 py-2">
                 <textarea className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
                 type="text" placeholder="Message" aria-label="Message"
                 name='message'
@@ -70,7 +70,7 @@ const ContactPage = () => {
             </div>
         </div>
         <div className="flex justify-end">
-            <button className="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
+            <button className="flex-shrink-0 bg-stone-500 hover:bg-stone-700 border-stone-500 hover:border-stone-700 text-sm border-4 text-white py-1 px-2 rounded"
              type="submit">
                 Submit
             </button>

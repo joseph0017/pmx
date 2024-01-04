@@ -10,6 +10,7 @@
     z-index: 1;
 }
 .normalBackground {
+    background-color: #ffd94f;
     right: 100%;
     margin-right: 40px;
     top: 80px;

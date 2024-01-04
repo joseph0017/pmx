@@ -35,19 +35,17 @@ const Navbar = () => {
                 className={`flex-1 justify-self-center pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 ${
                     navbar ? "block" : "hidden"
                 }`}>
-                <ul className="pr-10 justify-center space-y-8 grid lg:flex lg:space-x-6 lg:space-y-0 cursor-pointer">
+                <ul className="pr-10 justify-center space-y-8 grid lg:flex lg:space-x-6 lg:space-y-0 cursor-pointer text-white lg:text-black">
                     <li className='nav-item mx-1.5 sm:ml-6'>
                         <Link href='/'>Home</Link>
                     </li>
-                    <li className='nav-item mx-1.5 sm:mx-6'>
-                        <Link href='/about'>About</Link>
-                    </li>
+                    
                     <li className='nav-item mx-1.5 sm:mx-6'>
                         <Link href='/services'>Our Services</Link>
 
                     </li>
                     <li className='nav-item mx-1.5 sm:mx-6'>
-                        <Link href='/'>Projects</Link>
+                        <Link href='/about'>About</Link>
                     </li>
                     <li className='nav-item mx-1.5 sm:mx-6'>
                         <Link href='/contact'>Contact</Link>

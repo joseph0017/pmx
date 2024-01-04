@@ -4,7 +4,7 @@ const AboutPage = () => {
   return (
     <section className='pt-10 pl-2'>
         <div className='ml-4 pr-4'>
-            <h1 className='text-4xl sm:text-6xl'>WHO WE ARE</h1>
+            <h1 className='text-4xl sm:text-6xl text-yellow-400'>WHO WE ARE</h1>
             <p className='text-sm sm:text-base pt-10'> Prime Mega-X Technology Ltd is a construction company that also offers a retail of 
                 electronics and technology devices. We provide premium services for our clients at an 
                 affordable rate, and we are dedicated to deploying our vast resources to making 
@@ -13,7 +13,7 @@ const AboutPage = () => {
         </div>
         
         <div className='pt-16 ml-4 pr-4'>
-            <h1 className='text-4xl sm:text-6xl'> WHY US? </h1>
+            <h1 className='text-4xl sm:text-6xl text-yellow-400'> WHY US? </h1>
             <hr />
             <div className='pt-8 lg:grid grid-cols-12'>
                 <h3 className='text-xl sm:text-3xl pt-3 col-span-4'>First- Class Client Relations</h3>
