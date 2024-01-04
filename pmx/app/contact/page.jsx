@@ -27,7 +27,6 @@ const ContactPage = () => {
             <p className="text-sm sm:text-base pt-4">Have a question? We are here to listen to you.</p>
         </div>
         <div className='justify-self-center md:justify-self-end lg:mr-10'>
-            <p className="text-sm sm:text-base pt-10">Tel: +234 812 715 8191</p>
             <p className="text-sm sm:text-base"> No 7, Maccido Royal Estate Galadima FCT- Abuja. </p>
             <p className="text-sm sm:text-base">Email: Primemegaxtech@gmail.com</p>
         </div>
