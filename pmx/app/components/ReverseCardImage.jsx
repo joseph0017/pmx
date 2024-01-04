@@ -8,7 +8,7 @@ const ReverseCardImage = ({title, description, imgSrc}) => {
                 <Image src={imgSrc} alt="dining" />
             </div>      
             <div className="col-start-8 col-span-8 mt-12 lg:mt-20 ml-5 pb-4">
-                <h1 className="mb-5 sm:ml-4 text-3xl sm:text-4xl md:text-5xl lg:text-5xl text-white "> {title} </h1>
+                <h1 className="mb-5 sm:ml-4 text-3xl sm:text-4xl md:text-5xl lg:text-5xl text-white font-medium"> {title} </h1>
                 <p className="sm:ml-4 mr-2 mb-2 sm:mb-4"> {description}</p>
             </div>
         </div>
