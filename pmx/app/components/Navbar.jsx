@@ -5,6 +5,7 @@ import Link from 'next/link'
 import hamburger_menu from './icons/hamburger.png'
 import close from './icons/x.png'
 import styles from '../../styles/Navbar.module.css'
+import pmx_logo from '../../public/favicon.ico'
 
 import Image from 'next/image'
 
@@ -21,7 +22,7 @@ const Navbar = () => {
         <div>
             <div className="flex items-center justify-between py-3 lg:py-5 lg:block">
                 <Link href="/" className="sm:text-base italic font-semibold cursor-pointer relative text-black ">
-                    PMX
+                    <Image src={pmx_logo} alt='pmx' width={30}/>
                 </Link>
                 <div className="lg:hidden">
                     <button
