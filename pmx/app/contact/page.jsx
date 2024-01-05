@@ -23,10 +23,12 @@ const ContactPage = () => {
   return (
     <section className="pl-3 grid ">
         <div className='justify-self-center md:justify-self-start lg:ml-10'>
-            <h1 className="text-4xl sm:text-6xl pt-10 text-yellow-400">CONTACT US</h1>
+            <h1 className="text-4xl sm:text-6xl pt-10 text-yellow-400 font-bold">CONTACT US</h1>
             <p className="text-sm sm:text-base pt-4">Have a question? We are here to listen to you.</p>
         </div>
-        <div className='justify-self-center md:justify-self-end lg:mr-10'>
+        <br />
+        <br />
+        <div className='justify-self-center md:justify-self-end ml-4 lg:mr-10'>
             <p className="text-sm sm:text-base"> No 7, Maccido Royal Estate Galadima FCT- Abuja. </p>
             <p className="text-sm sm:text-base">Email: Primemegaxtech@gmail.com</p>
         </div>
