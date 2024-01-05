@@ -30,7 +30,7 @@ const ContactPage = () => {
         <br />
         <div className='justify-self-center md:justify-self-end ml-4 lg:mr-10'>
             <p className="text-sm sm:text-base"> No 7, Maccido Royal Estate Galadima FCT- Abuja. </p>
-            <p className="text-sm sm:text-base">Email: Primemegaxtech@gmail.com</p>
+            <p className="text-sm sm:text-base">Email: info@primemega-xtechnologyltd.com</p>
         </div>
 
     <form ref={form} onSubmit={sendEmail} 

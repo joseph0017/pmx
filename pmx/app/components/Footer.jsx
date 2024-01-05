@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="bg-black pt-10 pb-10">
         <div className="text-white text-base text-center">
-            Email: Primemegaxtech@gmail.com
+            Email: info@primemega-xtechnologyltd.com
         </div>
         <br />
         <p className="text-white text-base text-center "> 
