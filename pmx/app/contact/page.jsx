@@ -8,7 +8,7 @@ const ContactPage = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_okrngza', 'template_1fj9i08', form.current, '4hQJ-fZnCTIxhkZU1')
+        emailjs.sendForm('service_f34h5sc', 'template_53g7ypv', form.current, 'rl-1uIndP9Fc4QNax')
         .then((result) => {
             if (result.status === 200) {
             alert('Thanks for reaching out, We will be in touch with you soon.');
